@@ -66,5 +66,4 @@ app.post('/login', async (req: Request, res: Response) => {
   res.status(200).json({ message: 'Login successful' });
 });
 
-// ✅ Export the app for Vercel
 export default app;
